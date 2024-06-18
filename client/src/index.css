@@ -1,0 +1,30 @@
+#navBar{
+    background-color: burlywood;
+    height: 4rem;
+}
+.login{
+    float:right;
+}
+
+#navBar ul{
+    margin: 0;
+
+}
+#navBar li {
+    display: block;
+    float: left;
+    width: 20%; /* for 5 li's (100%/5)*/
+    margin: 0;
+    padding: 0;
+    text-align: center; /* optional */
+    list-style-type: none;
+   }
+
+body,html {
+    margin: 0;
+  }
+  
+#root{
+    height: 100%;
+    width: 100%;
+}
